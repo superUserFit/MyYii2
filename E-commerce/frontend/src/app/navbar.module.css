@@ -1,0 +1,44 @@
+/*
+    Navigation Bar
+*/
+.navbar {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+    top: 0;
+    width: 100%;
+    position: fixed !important;
+    background: rgb(225, 50, 50);
+    height: 50px;
+    padding: 15px 36px !important;
+}
+
+.logo {
+    width: 120px;
+    height: auto;
+}
+
+.navbarLink {
+    color: rgb(255, 255, 255) !important;
+    font-weight: bold !important;
+    font-size: small;
+}
+
+.button {
+    background: rgb(64, 64, 64) !important;
+    border: none !important;
+    padding: 8px;
+    border-radius: 8px;
+    margin-left: 12px;
+    color: white;
+}
+
+.modal {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: rgb(225, 50, 50);
+    padding: 5px;
+    z-index: 999;
+}
